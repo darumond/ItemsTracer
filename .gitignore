@@ -1,0 +1,117 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+*.swp
+*.swp
+*.lock
+*.lock
+*.moved-aside
+*.moved-aside
+*.pbxuser
+*.pbxuser
+*.mode1v3
+*.mode1v3
+*.mode2v3
+*.mode2v3
+*.perspectivev3
+*.perspectivev3
+*.xcuserstate
+*.xcuserstate
+xcuserdata/
+xcuserdata/
+DerivedData/
+DerivedData/
+*.xccheckout
+*.xccheckout
+*.moved-aside
+*.moved-aside
+*.xcuserstate
+*.xcuserstate
+
+# CocoaPods
+Pods/
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+.build/
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/xcode/xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# Fastlane
+fastlane/report.xml
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/screenshots
+fastlane/test_output
+fastlane/test_output
+fastlane/.env
+fastlane/.env
+
+# Code Injection
+InjectionProject/
+InjectionProject/
+
+# App distribution
+*.ipa
+*.ipa
+*.pkg
+*.pkg
+*.dSYM.zip
+*.dSYM.zip
+*.dSYM
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+timeline.xctimeline
+playground.xcworkspace
+playground.xcworkspace
+
+# OS X
+.DS_Store
+.DS_Store
+.AppleDouble
+.AppleDouble
+.LSOverride
+.LSOverride
+
+# Thumbnails
+._*
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.DocumentRevisions-V100
+.fseventsd
+.fseventsd
+.Spotlight-V100
+.Spotlight-V100
+.TemporaryItems
+.TemporaryItems
+.Trashes
+.Trashes
+.VolumeIcon.icns
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDB
+.AppleDesktop
+.AppleDesktop
+Network Trash Folder
+Network Trash Folder
+Temporary Items
+Temporary Items
+.apdisk
+.apdisk
