@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InventoryListView: View {
     var body: some View {
-        Text("oui")
+        Text("oubbi")
     }
 }
 
