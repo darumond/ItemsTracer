@@ -4,7 +4,7 @@
 //
 //  Created by Luc Nguyen on 31/01/2024.
 //
-import FirebaseFirestore
+import FirebaseFirestoreSwift
 import Foundation
 
 
