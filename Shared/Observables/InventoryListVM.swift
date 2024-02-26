@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 
 class InventoryListViewModel: ObservableObject {
-    @Published var items = [InventoryIten]()
+    @Published var items = [InventoryItem]()
     
     @MainActor
     func listenToItems() {
@@ -24,7 +24,7 @@ class InventoryListViewModel: ObservableObject {
                 }
                 let docs = snapshot.documents
                 let items = docs.compactMap {
-                    try? $0.data(as: InventoryIten.self)
+                    try? $0.data(as: InventoryItem.self)
                 }
                 
                 withAnimation {

@@ -8,7 +8,7 @@ import FirebaseFirestoreSwift
 import Foundation
 
 
-struct InventoryIten: Identifiable, Codable, Equatable {
+struct InventoryItem: Identifiable, Codable, Equatable {
     var id = UUID().uuidString
     @ServerTimestamp var createdAt: Date?
     @ServerTimestamp var updatedAt: Date?
