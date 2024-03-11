@@ -10,6 +10,8 @@
 		8115308C2B6A161E003513EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115308B2B6A161E003513EE /* AppDelegate.swift */; };
 		8115308D2B6A161E003513EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115308B2B6A161E003513EE /* AppDelegate.swift */; };
 		814EA63E2B6C92D4007388CC /* InventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814EA63D2B6C92D4007388CC /* InventoryItemView.swift */; };
+		817228C02B9FA74D00228232 /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817228BF2B9FA74D00228232 /* InventoryFormView.swift */; };
+		817228C32B9FAED900228232 /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817228C22B9FAED900228232 /* InventoryFormVM.swift */; };
 		817D1DEE2B6C626E00790335 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 817D1DED2B6C626E00790335 /* FirebaseFirestore */; };
 		817D1DF02B6C629100790335 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 817D1DEF2B6C629100790335 /* FirebaseFirestoreSwift */; };
 		817D1DF22B6C629700790335 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 817D1DF12B6C629700790335 /* FirebaseStorage */; };
@@ -21,7 +23,6 @@
 		8199541F2B6A2171002642D4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8199541D2B6A2171002642D4 /* String+Extension.swift */; };
 		819954222B6A21E6002642D4 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819954212B6A21E6002642D4 /* InventoryListView.swift */; };
 		81B3246B2B69F451005B76B1 /* ItemsTracerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3246A2B69F451005B76B1 /* ItemsTracerApp.swift */; };
-		81B3246D2B69F451005B76B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3246C2B69F451005B76B1 /* ContentView.swift */; };
 		81B3246F2B69F452005B76B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B3246E2B69F452005B76B1 /* Assets.xcassets */; };
 		81B324722B69F452005B76B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B324712B69F452005B76B1 /* Preview Assets.xcassets */; };
 		81D992C02B69F9AF00683A9D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 81D992BF2B69F9AF00683A9D /* RealityKitContent */; };
@@ -40,13 +41,14 @@
 		811530892B6A1454003513EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8115308B2B6A161E003513EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814EA63D2B6C92D4007388CC /* InventoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemView.swift; sourceTree = "<group>"; };
+		817228BF2B9FA74D00228232 /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		817228C22B9FAED900228232 /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
 		819954162B6A1F0C002642D4 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
 		8199541A2B6A2023002642D4 /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
 		8199541D2B6A2171002642D4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		819954212B6A21E6002642D4 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
 		81B324672B69F451005B76B1 /* ItemsTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItemsTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B3246A2B69F451005B76B1 /* ItemsTracerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTracerApp.swift; sourceTree = "<group>"; };
-		81B3246C2B69F451005B76B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81B3246E2B69F452005B76B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B324712B69F452005B76B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81D992BB2B69F9AF00683A9D /* ItemsTracerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItemsTracerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		817228C12B9FAEB100228232 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				817228C22B9FAED900228232 /* InventoryFormVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
 		819954192B6A1FF2002642D4 /* Observables */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				819954212B6A21E6002642D4 /* InventoryListView.swift */,
+				817228BF2B9FA74D00228232 /* InventoryFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,11 +163,11 @@
 		81B324692B69F451005B76B1 /* ItemsTracer */ = {
 			isa = PBXGroup;
 			children = (
+				817228C12B9FAEB100228232 /* Observables */,
 				819954202B6A21B4002642D4 /* Views */,
 				811530892B6A1454003513EE /* Info.plist */,
 				81D992E02B6A0CDA00683A9D /* GoogleService-Info.plist */,
 				81B3246A2B69F451005B76B1 /* ItemsTracerApp.swift */,
-				81B3246C2B69F451005B76B1 /* ContentView.swift */,
 				81B3246E2B69F452005B76B1 /* Assets.xcassets */,
 				81B324702B69F452005B76B1 /* Preview Content */,
 			);
@@ -326,11 +337,12 @@
 			files = (
 				819954172B6A1F0C002642D4 /* InventoryItem.swift in Sources */,
 				8115308C2B6A161E003513EE /* AppDelegate.swift in Sources */,
-				81B3246D2B69F451005B76B1 /* ContentView.swift in Sources */,
+				817228C32B9FAED900228232 /* InventoryFormVM.swift in Sources */,
 				8199541B2B6A2023002642D4 /* InventoryListVM.swift in Sources */,
 				8199541E2B6A2171002642D4 /* String+Extension.swift in Sources */,
 				81B3246B2B69F451005B76B1 /* ItemsTracerApp.swift in Sources */,
 				819954222B6A21E6002642D4 /* InventoryListView.swift in Sources */,
+				817228C02B9FA74D00228232 /* InventoryFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,9 @@ import SwiftUI
 
 struct InventoryListView: View {
     @StateObject var vm = InventoryListViewModel()
+    @State var formType: FormType?
+    
+    
     var body: some View {
         List {
             ForEach(vm.items){
@@ -16,11 +19,26 @@ struct InventoryListView: View {
                     .listRowSeparator(.hidden)
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        
+                        formType = .edit(item)
                     }
             }
         }
         .navigationTitle("Item Tracer")
+        .toolbar {
+            ToolbarItem(placement: .primaryAction){
+                Button("+ Item"){
+                    formType = .add
+                }
+            }
+        }
+        .sheet( item: $formType) {
+            type in
+            NavigationStack{
+                InventoryFormView(vm: .init(formType: type))
+            }
+            .presentationDetents([.fraction(0.85)])
+            .interactiveDismissDisabled()
+        }
         .onAppear(){
             vm.listenToItems()
         }
